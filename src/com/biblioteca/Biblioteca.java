@@ -28,4 +28,14 @@ public Biblioteca(){
         }
 
     }
+    public void listarMembros(){
+        System.out.println("---- Membros da Biblioteca ----");
+        for (Membro membro : membroList){
+            System.out.println("Nome: "+ membro.getNome());
+            System.out.println("Id: "+ membro.getIdMembro());
+        }
+    }
+    public void emprestarLivro(){
+
+    }
 }

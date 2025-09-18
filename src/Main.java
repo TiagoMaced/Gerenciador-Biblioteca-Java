@@ -1,5 +1,6 @@
 import com.biblioteca.Biblioteca;
 import com.biblioteca.Livro;
+import com.biblioteca.Membro;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,6 +16,18 @@ public class Main {
         minhaBiblioteca.adicionarLivro(livro3);
 
         minhaBiblioteca.listarTodosOsLivros();
+
+        Membro membro1 = new Membro("Tiago","001");
+        Membro membro2 = new Membro("Felipe","002");
+        Membro membro3 = new Membro("André","003");
+        Membro membro4 = new Membro("Perreps","004");
+
+        minhaBiblioteca.adicionarMembros(membro1);
+        minhaBiblioteca.adicionarMembros(membro2);
+        minhaBiblioteca.adicionarMembros(membro3);
+        minhaBiblioteca.adicionarMembros(membro4);
+
+        minhaBiblioteca.listarMembros();
 
         }
 }
