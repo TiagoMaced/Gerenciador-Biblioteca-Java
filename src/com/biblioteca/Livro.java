@@ -24,4 +24,10 @@ public Livro(String titulo, String autor, String isbn){
     public boolean isDisponivel() {
         return disponivel;
     }
+    public String getTitulo(){
+        return titulo;
+    }
+    public String getAutor(){
+        return autor;
+    }
 }
